@@ -1,0 +1,65 @@
+body {
+    background: url(/static/img/ciudad.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+body:before{
+	content:'';
+	position: absolute;
+        top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.4);
+}
+
+.panel-danger {
+    opacity:40%;
+    background-color:#d60111;
+    color:white;
+
+}
+
+.modal-content{
+    background-color:#A6A6A7;
+    opacity:90%;
+    padding: 50px 80px;
+
+}
+
+.jumbotron{
+    background-color:black;
+    text-align:center;
+
+    color:white;
+
+}
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+ 
+.row{
+    padding: 5px;
+}
+
+.firmar_solicitud{
+	position: -webkit-sticky;
+	position: sticky;
+	margin: auto;
+	top: 30%;
+	width: 50%;
+}
+
+.upload{
+	position: absolute;
+}
+
+#errores{
+        vertical-align: middle;
+        text-align: center; 
+}
+

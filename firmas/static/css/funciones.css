@@ -1,0 +1,64 @@
+h1 {
+        text-align: center;
+        font-family: 'Monoton', cursive;
+	font-size: 50px;
+        color: rgb(255,255,255);
+
+}
+
+.regis {
+	font-size: 17px;
+        color: white;
+	text-align: center;
+}
+
+fieldset {
+    border-width: 2px;
+    border-style: groove;
+    border-color: threedface;
+    padding: 15;
+}
+
+#bootstrap-overrides fieldset {
+    padding: 15;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+ 
+.row{
+    padding: 5px;
+}
+
+.registro{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 70vh; 
+}
+
+#menu{
+        vertical-align: middle;
+        text-align: center;
+}
+
+#errores{
+        vertical-align: middle;
+        text-align: center; 
+}
+
+#renovar_llaves_div{
+  position: absolute;
+  width: 100vw;
+  z-index: 3;
+}
+
+@media only screen and (max-width: 1162px) {
+    [class*="col-xs-4"] {
+        width: 100%;
+    }
+}
+
